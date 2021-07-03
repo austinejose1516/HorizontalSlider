@@ -9,6 +9,17 @@ html {
   height: 3600px;
 }
 
+h1 {
+  position: fixed;
+  color: white;
+  top: 40px;
+  left: 50%;
+  font-style: italic;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  transform: translate(-50%);
+}
+
 .container {
   position: fixed;
   display: flex;
