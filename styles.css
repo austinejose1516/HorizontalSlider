@@ -3,13 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
-.slider-wrap {
-  position: fixed;
-  top: 20%;
-  left: 10%;
-  width: 80%;
-  height: 300px;
-  overflow: hidden;
-  border: 1px solid black;
+body,
+html {
+  background-color: black;
+  height: 3600px;
 }
-.slider-
+
+.container {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  top: 20vh;
+  width: 3600px;
+  transition: transform 0.15s;
+  will-change: transform;
+}
+
+.box {
+  position: relative;
+  width: 500px;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+}
